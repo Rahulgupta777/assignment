@@ -1,0 +1,2001 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "eb01dcb6-31d9-4b78-a53d-b760137ecc75",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "55e4dc9d-a968-4e40-be5f-da27b5aee756",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "25"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5*5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "62710769-aaf9-4f0d-8ec4-29a2c1c8c320",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "rahul = 20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "f428798f-7ff0-462d-becb-984361e29241",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "20"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rahul"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "d025c8d1-64eb-4ee9-a178-85f7911570ef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f8191ccd-0586-4ccb-8fc4-ce517d3a6e5b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "c5156ce6-9891-45d7-8414-024170eb4336",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "0839ab8f-a3b2-453f-b160-6dfa82a3369a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "rahul = 5+8j"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "e0d50346-c19f-4762-b88f-f73fd2279121",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(5+8j)"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rahul"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "9ec43628-dc67-4aba-bf25-d646c0bc85ef",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5.0"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rahul.real"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "906f24e1-a321-4220-b535-16c54b908822",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(5+8j)"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rahul"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "5aaac0b3-4b18-4ec4-bd1a-509461dd0b8e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8.0"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rahul.imag"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "db1ac710-6724-4f5a-b740-987a196eae63",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my name is rahul\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"my name is rahul\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "3b3ac4c3-ad42-44e3-9a6a-5f220cf65f78",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(5+8j)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(rahul)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "28535028-4f18-4ee9-94c6-e6327a9c0c20",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s= \"pwskills\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "65bfa34f-761b-467c-babd-1916edc76821",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "609db921-e79f-48a0-9227-23d7c1ad2312",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'p'"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "b381e7f9-835b-4946-81f6-1826f999b63c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'s'"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "830b8017-c78b-46ac-8cbe-d97e0456db86",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0:9]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "88dae161-3eac-435c-8a36-4437e6b77e1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'l'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "3507425f-29e9-48ba-8ecd-e30af4c8a2ba",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'s'"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[-6]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "2db57db4-ce3f-4865-96e4-a26dd472b5d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'psil'"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[0:8:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "82b33a21-dc6a-4297-8b84-0a6f88257a70",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sllikswp'"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "c314ed14-3f3b-468d-b312-ffb3105f384b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sil'"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[2:7:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "2312c635-3e46-41bb-bbd6-010734c62c38",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1 = \"rahul is my name\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "b1b96750-9ef3-46ed-937c-8970736ea127",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'rahul is my name'"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "668a1547-6817-412d-bb7c-3535b5e4ff56",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "16"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(s1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "da36f5e2-abbe-4ff2-94e5-ac8e1d3d28bd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.find('s')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "b29c57b4-e05c-444c-a8a2-0d481736380c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.find('m')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "abc09415-b850-4a44-97c5-581d7d774049",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.find(\"is\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "a878d2e3-d7cd-4d29-9baf-ccf5a3abdd52",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.count(\"is\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "91f0b003-a8fa-4723-b90f-4d00fc9a97d7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.count(\"m\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "8f129eb2-96d1-4e63-ab85-98df3bc4964f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s= \"pwskills\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "0ebaa42a-7f4c-4d9d-9353-8babeba6340b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "97dbda29-9113-4318-b44a-5e842ac71f29",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskillsrahul'"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s+\"rahul\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "25e3cb99-e5d2-4466-8767-49a0820d90f0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#you are nice"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "685a48fc-5744-4066-b60e-7afb8497b9c3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "d51fbf3d-7f4c-4efc-9078-a394c9cf06a6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=[1,2,3,4,\"rahul\",\"gupta\",69.99,True,5+7j]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "af43b01e-8b80-4c85-a752-60ce591c0432",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j)]"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "5d725805-b97f-4fa5-b6c5-faeed927a168",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "type[[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j)]]"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type[l]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "7d0f1e5b-4ee3-4031-899a-4235ee60bb5a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "864ec591-a049-4ef2-96e9-9a437b2a0923",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(5+7j)"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "292ffe7c-e586-48a9-b953-a20940228d5b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j)]"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[0:9]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "1daa67e3-6a14-4514-b4b3-6866ca8d35e9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[4, 'rahul', 'gupta', 69.99, True, (5+7j)]"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[3:9]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "2096a085-1d0d-4986-9f42-bfeb1069a94b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 3, 'rahul', 69.99, (5+7j)]"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[0:9:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "6df0f843-b57c-452b-98c5-c1a4d890e80c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[(5+7j), 69.99, 'rahul', 3, 1]"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[::-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "8816197a-b768-4fec-8b77-dd1bb0a4e375",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=\"pwskills\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "683b3f3c-31fc-4c31-bb9e-819206838c41",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "0a739fce-f8c2-430a-82c3-1e5c6e56a1d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "can only concatenate list (not \"str\") to list",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[56], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43ml\u001b[49m\u001b[38;5;241;43m+\u001b[39;49m\u001b[43ms\u001b[49m\n",
+      "\u001b[0;31mTypeError\u001b[0m: can only concatenate list (not \"str\") to list"
+     ]
+    }
+   ],
+   "source": [
+    "l+s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "3f2c10c0-0a7f-4a28-a993-4cbf58b85547",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "481af699-5822-4dd2-bf52-08a0cbaf2599",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j)]"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "8a24189e-e869-4396-b1c5-a49201b45f97",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ra'"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[4][0:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "b91049dc-3f7e-4a1e-a36c-b169981bdf48",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[7]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "dd350c8b-1421-4363-8696-89324caf3e9d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Tr'"
+      ]
+     },
+     "execution_count": 66,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str(l[7])[0:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "c116fae1-7083-4f0d-8f1f-be2044e7d62f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1=[1,2,3,4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "23573962-75a5-44f6-a3cc-ce1b6a80fc83",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4]"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "e3cefc04-cd9b-4bac-9f5c-fe4d2c34e9cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j), 1, 2, 3, 4]"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l+l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "750ed09b-8b53-4072-bb29-0c48cb2068ef",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1*3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "64ade679-8480-4119-ad6f-364c5762c4a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j)]"
+      ]
+     },
+     "execution_count": 71,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "3653cc48-b008-4e9c-b038-29e88ccbc2c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 75,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "dd97c06f-8d2b-432d-a1c4-aeb3088c788b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l.append(5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "57dc615b-38d2-4706-bbc0-fa9e559dca99",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j), 5]"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "b2a9e9a2-160c-42d4-a5a0-9df93828cf40",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pwskills'"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "1bf3e329-8974-4b43-8e89-5e1c116714a4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l.append(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "787c7c9a-d855-4ecb-b490-d8e7f0c42095",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 'rahul', 'gupta', 69.99, True, (5+7j), 5, 'pwskills']"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "3b1b6ffc-7617-4d74-9d51-66045000423a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l.append(l1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "0f29d356-2df3-4430-9943-dd476d9c6fe8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1,\n",
+       " 2,\n",
+       " 3,\n",
+       " 4,\n",
+       " 'rahul',\n",
+       " 'gupta',\n",
+       " 69.99,\n",
+       " True,\n",
+       " (5+7j),\n",
+       " 5,\n",
+       " 'pwskills',\n",
+       " [1, 2, 3, 4]]"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "542fe7e6-2d91-4525-adc3-7cae040ffe31",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 84,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[-1][2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "682a0315-3022-4797-b022-2eced8b191f5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l.extend(\"rahul\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "b7d40c29-ff62-4770-bbd1-65c095c0d452",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1,\n",
+       " 2,\n",
+       " 3,\n",
+       " 4,\n",
+       " 'rahul',\n",
+       " 'gupta',\n",
+       " 69.99,\n",
+       " True,\n",
+       " (5+7j),\n",
+       " 5,\n",
+       " 'pwskills',\n",
+       " [1, 2, 3, 4],\n",
+       " 'r',\n",
+       " 'a',\n",
+       " 'h',\n",
+       " 'u',\n",
+       " 'l']"
+      ]
+     },
+     "execution_count": 87,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "0e116d03-933e-458c-b6a9-f4d236f410b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1,\n",
+       " 2,\n",
+       " 3,\n",
+       " 4,\n",
+       " 'rahul',\n",
+       " 'gupta',\n",
+       " 69.99,\n",
+       " True,\n",
+       " (5+7j),\n",
+       " 5,\n",
+       " 'pwskills',\n",
+       " [1, 2, 3, 4],\n",
+       " 'r',\n",
+       " 'a',\n",
+       " 'h',\n",
+       " 'u',\n",
+       " 'l']"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "d70aa160-b57a-4dcf-892e-5c0b84fa1613",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l.extend([2,3,4,5])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "60612095-7d38-474e-8056-0329ea855e7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1,\n",
+       " 2,\n",
+       " 3,\n",
+       " 4,\n",
+       " 'rahul',\n",
+       " 'gupta',\n",
+       " 69.99,\n",
+       " True,\n",
+       " (5+7j),\n",
+       " 5,\n",
+       " 'pwskills',\n",
+       " [1, 2, 3, 4],\n",
+       " 'r',\n",
+       " 'a',\n",
+       " 'h',\n",
+       " 'u',\n",
+       " 'l',\n",
+       " 2,\n",
+       " 3,\n",
+       " 4,\n",
+       " 5]"
+      ]
+     },
+     "execution_count": 91,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "ba998f11-13f3-4d80-afd8-2d4faa6e966c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4]"
+      ]
+     },
+     "execution_count": 92,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 97,
+   "id": "2fac1363-a0d5-4702-8403-448898a89bbd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1.insert(0,\"rahul\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "42f4ecb1-131d-42fa-b882-a928880a9afa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['rahul', 1, 'rahul', 2, 3, 4]"
+      ]
+     },
+     "execution_count": 98,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "3b0a8b90-01bf-4638-824c-1225db1270ec",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1.insert(4,[1,2,3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "f3a6c45e-9582-4851-a96f-fdf1129af554",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['rahul', 1, 'rahul', 2, [1, 2, 3], 3, 4]"
+      ]
+     },
+     "execution_count": 102,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "87dc9f46-9f5c-4982-86a3-37fcb9ad5bdb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1.insert(0,s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "4a68eb11-7322-4638-8a68-85e9716cfc13",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['pwskills', 'rahul', 1, 'rahul', 2, [1, 2, 3], 3, 4]"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "id": "b93a58b1-900b-4ea5-a6e0-19b75e306c84",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 105,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1.pop()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "29481d29-ab29-4e95-a416-4c44b0ab7af8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['pwskills', 'rahul', 1, 'rahul', 2, [1, 2, 3], 3]"
+      ]
+     },
+     "execution_count": 106,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "f8f84f24-de2c-4110-ab43-c800d1a66695",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 108,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1.pop(-1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "ecc06d08-2981-4c06-9de6-605931714cc2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['pwskills', 'rahul', 1, 2, [1, 2, 3]]"
+      ]
+     },
+     "execution_count": 109,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "45b66d92-14d3-4845-bc81-1e33841d8620",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1.remove(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "876bfe45-8c3f-4e94-b2ef-a8f1957545cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['pwskills', 'rahul', 2, [1, 2, 3]]"
+      ]
+     },
+     "execution_count": 112,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "52052f5b-7b8a-42bc-b0a2-d7cb1587b85d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1[3].remove(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "fd8900f8-37dd-4b8c-a8d9-bd7c66bf5750",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['pwskills', 'rahul', 2, [1, 3]]"
+      ]
+     },
+     "execution_count": 116,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "id": "28b1e388-f348-4a8e-b311-024d4e90cb87",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[[1, 3], 2, 'rahul', 'pwskills']"
+      ]
+     },
+     "execution_count": 117,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 118,
+   "id": "15da884c-8749-493f-b297-d0edc044516f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1.reverse()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "2a30ff6a-c96a-48bf-84a3-ea36fea3a5d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[[1, 3], 2, 'rahul', 'pwskills']"
+      ]
+     },
+     "execution_count": 119,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "787e0de0-1825-4042-bb86-1318c9779c50",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'<' not supported between instances of 'int' and 'list'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[120], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43ml1\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43msort\u001b[49m\u001b[43m(\u001b[49m\u001b[43m)\u001b[49m\n",
+      "\u001b[0;31mTypeError\u001b[0m: '<' not supported between instances of 'int' and 'list'"
+     ]
+    }
+   ],
+   "source": [
+    "l1.sort()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "669e1fca-18a9-43d9-a590-a6563c844b2b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l2 = [1,2,90,69,420,3,4,5,6,7]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "5d2df10e-be5a-4c7d-a4db-2b3e276cacff",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 90, 69, 420, 3, 4, 5, 6, 7]"
+      ]
+     },
+     "execution_count": 126,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "0c0a9d98-e53a-47a3-aefb-2630a203f0bf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l2.sort()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "id": "a822ad66-6e86-4cd8-badb-88662167475b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 5, 6, 7, 69, 90, 420]"
+      ]
+     },
+     "execution_count": 128,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "7487888d-1fd9-429f-824b-c2032c2009b8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l4=[\"pwskills\",\"gupta\",\"rahul\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "1fd35219-682d-4336-8909-cc433dd246f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['pwskills', 'gupta', 'rahul']"
+      ]
+     },
+     "execution_count": 130,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 132,
+   "id": "9872691e-5136-45c4-8afe-eded60ae7e26",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l4.sort(reverse=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "id": "929080ff-91e5-4a5e-add9-02acedbf65bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['rahul', 'pwskills', 'gupta']"
+      ]
+     },
+     "execution_count": 133,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 134,
+   "id": "bf070794-2143-4017-ba20-e602f14ca01f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 134,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l4.index(\"rahul\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 137,
+   "id": "47d863f7-8368-4475-a4d7-f7eb658e44df",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 137,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l4.count(\"rahul\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 138,
+   "id": "95e5bc1c-e8c4-4362-bb7e-a1513c1b0088",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=\"rahul\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "id": "24c5792b-d244-419f-85f4-70506cd63858",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'rahul'"
+      ]
+     },
+     "execution_count": 139,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 142,
+   "id": "d2e50cb6-dba0-482e-a1f3-980246d5bf56",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'str' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[142], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43ms\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;241;43m0\u001b[39;49m\u001b[43m]\u001b[49m\u001b[38;5;241m=\u001b[39m\u001b[38;5;124m'\u001b[39m\u001b[38;5;124ma\u001b[39m\u001b[38;5;124m'\u001b[39m\n",
+      "\u001b[0;31mTypeError\u001b[0m: 'str' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "s[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f3876415-4a50-4ce9-8030-7ea1f2722358",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
